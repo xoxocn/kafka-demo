@@ -1,6 +1,6 @@
 spring:
   application:
-    name: shop-server
+    name: kafka-server
   cloud:
     stream:
       bindings:
@@ -45,3 +45,15 @@ spring:
                       brokers: 192.168.138.223:9092
 server:
   port: 8100
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: localhost
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
+    org.springframework.cloud.bus: debug
+

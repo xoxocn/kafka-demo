@@ -1,0 +1,4 @@
+com\xoxo\kafka\channel\SellChannel.class
+com\xoxo\kafka\channel\ShopChannel.class
+com\xoxo\kafka\KafkaServerApplication.class
+com\xoxo\kafka\server\ShopService.class

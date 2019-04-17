@@ -1,2 +1,2 @@
-com\xoxo\channel\ShopChannel.class
 com\xoxo\App.class
+com\xoxo\kafka\client\ShopInterface.class
